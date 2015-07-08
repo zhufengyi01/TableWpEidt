@@ -6,10 +6,8 @@
 //  Created by 朱封毅 on 08/07/15.
 //  Copyright (c) 2015年 card. All rights reserved.
 //
-
+<pre><code>
 #import "MyTabble.h"
-
-
 @implementation MyTabble
 -(void)viewDidLoad{
     [super viewDidLoad];
@@ -78,4 +76,4 @@
     cell.textLabel.text  = self.wineArray[indexPath.row];
     return cell;
 }
-@end
+@end</code></pre>
